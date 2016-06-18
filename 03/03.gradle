@@ -1,0 +1,11 @@
+task hello << {
+	print "Hello, "
+}
+
+hello << {
+	println "Martian!"
+}
+
+hello {
+	println "Configuring hello task..."
+}
